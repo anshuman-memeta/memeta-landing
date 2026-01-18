@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from 'react';
 
 const MemetaLogo = ({ size = 40, glowColor = null }) => (
   <img 
-    src="/logo.png"
+    src="/memeta white_000000 (3).png"
     alt="Memeta"
     style={{
       height: size,
