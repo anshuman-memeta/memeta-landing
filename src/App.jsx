@@ -107,7 +107,7 @@ const AnimatedCounter = ({ target, suffix = '', duration = 2000 }) => {
 
     const displayValue = typeof count === 'number' ? count + suffix : target;
 
-    return <span ref={ref}>{displayValue}</span>span>;
+    return <span ref={ref}>{displayValue}</span>;
 };
 
 export default function MemetaLanding() {
@@ -393,7 +393,7 @@ export default function MemetaLanding() {
                       <div style={{ maxWidth: '1200px', margin: '0 auto', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                                 <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
                                             <MemetaLogo size={32} glowColor="rgba(168,85,247,0.3)" />
-                                            <span style={{ fontSize: '20px', fontWeight: 700, letterSpacing: '-0.5px' }}>Memeta</span>span>
+                                            <span style={{ fontSize: '20px', fontWeight: 700, letterSpacing: '-0.5px' }}>Memeta</span>
                                 </div>div>
                       
                         {!isMobile && (
@@ -445,7 +445,7 @@ export default function MemetaLanding() {
                         display: 'inline-block', padding: '8px 16px',
                         background: 'rgba(168,85,247,0.1)', border: '1px solid rgba(168,85,247,0.2)',
                         borderRadius: '100px', fontSize: '13px', fontWeight: 500, color: '#A855F7', letterSpacing: '0.5px'
-        }}>MEMETA</span>span>
+        }}>MEMETA</span>
                                 </div>div>
                       
                                 <h1 className="hero-title" style={{
@@ -453,7 +453,7 @@ export default function MemetaLanding() {
                       fontWeight: 800, lineHeight: 1, letterSpacing: '-3px', marginBottom: '24px'
         }}>
                                             Occupy<br />
-                                            <span className="gradient-text-shimmer" style={{ fontStyle: 'italic', paddingRight: '8px', display: 'inline-block' }}>Mindshare.</span>span>
+                                            <span className="gradient-text-shimmer" style={{ fontStyle: 'italic', paddingRight: '8px', display: 'inline-block' }}>Mindshare.</span>
                                 </h1>h1>
                       
                                 <p className="hero-subtitle" style={{
@@ -479,10 +479,10 @@ export default function MemetaLanding() {
               <section id="services" style={{ padding: isMobile ? '60px 20px' : '120px 48px', position: 'relative', zIndex: 1 }}>
                       <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
                                 <div style={{ marginBottom: '64px' }}>
-                                            <span style={{ display: 'block', fontSize: '13px', color: '#A855F7', fontWeight: 600, letterSpacing: '2px', marginBottom: '16px' }}>WHAT WE DO</span>span>
+                                            <span style={{ display: 'block', fontSize: '13px', color: '#A855F7', fontWeight: 600, letterSpacing: '2px', marginBottom: '16px' }}>WHAT WE DO</span>
                                             <h2 style={{ fontSize: isMobile ? '36px' : 'clamp(40px, 6vw, 64px)', fontWeight: 800, letterSpacing: '-2px', lineHeight: 1.1 }}>
                                                           Three ways to<br />
-                                                          <span className="gradient-text" style={{ fontStyle: 'italic', paddingRight: '8px', display: 'inline-block' }}>dominate.</span>span>
+                                                          <span className="gradient-text" style={{ fontStyle: 'italic', paddingRight: '8px', display: 'inline-block' }}>dominate.</span>
                                             </h2>h2>
                                 </div>div>
                       
@@ -506,7 +506,7 @@ export default function MemetaLanding() {
                                                               transitionDelay: `${index * 0.15}s`
                                           }}
                                         >
-                                        <span style={{ fontSize: '12px', fontWeight: 700, color: service.accent, letterSpacing: '2px', marginBottom: '16px', display: 'block' }}>{service.number}</span>span>
+                                        <span style={{ fontSize: '12px', fontWeight: 700, color: service.accent, letterSpacing: '2px', marginBottom: '16px', display: 'block' }}>{service.number}</span>
                                         <h3 style={{ fontSize: isMobile ? '24px' : '28px', fontWeight: 700, marginBottom: '8px', letterSpacing: '-0.5px' }}>{service.title}</h3>h3>
                                         <p style={{ fontSize: '15px', color: service.accent, fontWeight: 500, marginBottom: '16px', fontStyle: 'italic' }}>{service.tagline}</p>p>
                                         <p style={{ fontSize: '15px', color: 'rgba(250,250,250,0.5)', lineHeight: 1.6, marginBottom: '24px' }}>{service.description}</p>p>
@@ -516,8 +516,8 @@ export default function MemetaLanding() {
                                                               <div key={i} style={{ display: 'flex', alignItems: 'flex-start', gap: '12px' }}>
                                                                                     <div style={{ width: '6px', height: '6px', borderRadius: '50%', background: service.accent, marginTop: '8px', flexShrink: 0 }} />
                                                                                     <div>
-                                                                                                            <span style={{ fontSize: '14px', fontWeight: 600, color: '#FAFAFA' }}>{benefit.label}</span>span>
-                                                                                                            <span style={{ fontSize: '13px', color: 'rgba(250,250,250,0.4)', marginLeft: '8px' }}>{benefit.detail}</span>span>
+                                                                                                            <span style={{ fontSize: '14px', fontWeight: 600, color: '#FAFAFA' }}>{benefit.label}</span>
+                                                                                                            <span style={{ fontSize: '13px', color: 'rgba(250,250,250,0.4)', marginLeft: '8px' }}>{benefit.detail}</span>
                                                                                       </div>div>
                                                               </div>div>
                                                             ))}
@@ -565,7 +565,7 @@ export default function MemetaLanding() {
                       fontWeight: 800, letterSpacing: '-1.5px', marginBottom: '20px', lineHeight: 1.1
         }}>
                                             Ready to own the<br />
-                                            <span className="gradient-text" style={{ fontStyle: 'italic', paddingRight: '8px', display: 'inline-block' }}>conversation?</span>span>
+                                            <span className="gradient-text" style={{ fontStyle: 'italic', paddingRight: '8px', display: 'inline-block' }}>conversation?</span>
                                 </h2>h2>
                                 <p style={{ fontSize: isMobile ? '17px' : '20px', color: 'rgba(250,250,250,0.55)', marginBottom: '40px', lineHeight: 1.7 }}>Let's talk strategy.</p>p>
                                 <a href="mailto:anshuman@memeta.in" className="cta-button" style={{
@@ -574,7 +574,7 @@ export default function MemetaLanding() {
                       color: '#FAFAFA', textDecoration: 'none', fontSize: '17px', fontWeight: 600,
                       borderRadius: '100px', border: '1px solid rgba(168,85,247,0.4)'
         }}>
-                                            <span>anshuman@memeta.in</span>span>
+                                            <span>anshuman@memeta.in</span>
                                             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>svg>
                                 </a>a>
                       </div>div>
@@ -585,9 +585,9 @@ export default function MemetaLanding() {
                       <div style={{ maxWidth: '1200px', margin: '0 auto', display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '24px' }}>
                                 <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
                                             <MemetaLogo size={24} />
-                                            <span style={{ fontSize: '16px', fontWeight: 600, opacity: 0.8 }}>Memeta</span>span>
+                                            <span style={{ fontSize: '16px', fontWeight: 600, opacity: 0.8 }}>Memeta</span>
                                 </div>div>
-                                <span style={{ fontSize: '13px', color: 'rgba(250,250,250,0.3)' }}>© 2025 Memeta. Occupy Mindshare.</span>span>
+                                <span style={{ fontSize: '13px', color: 'rgba(250,250,250,0.3)' }}>© 2025 Memeta. Occupy Mindshare.</span>
                       </div>div>
               </footer>footer>
         </div>div>
