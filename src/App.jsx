@@ -658,4 +658,4 @@ export default function MemetaLanding() {
                   </footer>
             </div>
           );
-}</style>
+}
