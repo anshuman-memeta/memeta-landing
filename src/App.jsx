@@ -274,7 +274,7 @@ export default function MemetaLanding() {
                     </section>
 
                         {/* Stats Section */}
-                                <section style={{ padding: isMobile ? '60px 20px' : '80px 20px', position: 'relative' }}>
+                                <section style={{ padding: isMobile ? '60px 20px' : '80px 40px', background: 'linear-gradient(180deg, rgba(168, 85, 247, 0.1) 0%, rgba(17, 17, 17, 0) 100%)', borderTop: '1px solid rgba(168, 85, 247, 0.2)', borderBottom: '1px solid rgba(168, 85, 247, 0.2)' }}>
                                                     <div style={{ maxWidth: '1200px', margin: '0 auto', display: 'flex', justifyContent: 'space-around', flexWrap: 'wrap', gap: '40px' }}>
                                                               {[
                         { number: 127, suffix: 'M+', label: 'Monthly Audience' },
@@ -282,9 +282,9 @@ export default function MemetaLanding() {
                         { number: 35, suffix: '+', label: 'Brands trust Memeta' },
                         { number: 24, suffix: '/7', label: 'Reputation Monitoring' }
                                     ].map((stat, index) => (
-                                                            <div key={index} style={{ textAlign: 'center', minWidth: '200px' }}>
+                                                            <div key={index} style={{ textAlign: 'center', minWidth: '200px', padding: isMobile ? '24px 16px' : '32px 24px', background: 'rgba(168, 85, 247, 0.08)', borderRadius: '16px', border: '1px solid rgba(168, 85, 247, 0.2)' }}>
                                                                                       <div style={{ fontSize: isMobile ? '36px' : '48px', fontWeight: 700, color: '#A855F7', marginBottom: '8px' }}>
-                                                                                                                  {stat.number}{stat.suffix}
+                                                                                                                  <AnimatedCounter target={stat.number} suffix={stat.suffix} duration={2000} />
                                                                                                 </div>
                                                                                       <p style={{ fontSize: '16px', color: 'rgba(250,250,250,0.7)', margin: 0 }}>{stat.label}</p>
                                                             </div>
