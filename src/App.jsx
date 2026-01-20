@@ -284,7 +284,7 @@ export default function MemetaLanding() {
                                     ].map((stat, index) => (
                                                             <div key={index} style={{ textAlign: 'center', minWidth: '200px' }}>
                                                                                       <div style={{ fontSize: isMobile ? '36px' : '48px', fontWeight: 700, color: '#A855F7', marginBottom: '8px' }}>
-                                                                                                                  <AnimatedNumber target={stat.number} suffix={stat.suffix} duration={2000} />
+                                                                                                                  {stat.number}{stat.suffix}
                                                                                                 </div>
                                                                                       <p style={{ fontSize: '16px', color: 'rgba(250,250,250,0.7)', margin: 0 }}>{stat.label}</p>
                                                             </div>
