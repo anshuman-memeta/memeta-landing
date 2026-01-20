@@ -273,7 +273,7 @@ export default function MemetaLanding() {
                             </div>
                     </section>
               
-                    <section id="services" style={{ padding: isMobile ? '80px 20px' : '140px 48px', position: 'relative' }}>
+                    <se<section id="services" style={{ padding: isMobile ? '80px 20px' : '140px 48px', position: 'relative' }}>
                             <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
                                       <div style={{ textAlign: 'center', marginBottom: '80px' }}>
                                                   <span style={{ fontSize: '12px', fontWeight: 600, color: '#A855F7', letterSpacing: '2px', marginBottom: '16px', display: 'inline-block' }}>WHAT WE DO</span>
@@ -304,8 +304,22 @@ export default function MemetaLanding() {
                                       </div>
                             </div>
                     </section>
+
+                        {/* Stats */}
+                              <section id="results" style={{ padding: isMobile ? '60px 20px' : '100px 48px', position: 'relative', zIndex: 1 }}>
+                                                <div style={{ maxWidth: '1100px', margin: '0 auto', background: 'rgba(168,85,247,0.03)', borderRadius: '32px', border: '1px solid rgba(168,85,247,0.1)', padding: isMobile ? '40px 24px' : '60px 40px' }}>
+                                                                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: isMobile ? '32px 16px' : '48px 32px', maxWidth: '700px', margin: '0 auto' }}>
+                                                                              {[{ value: '127M+', label: 'Monthly Community Viewers' }, { value: '50+', label: 'Communities We Run' }, { value: '35+', label: 'Brands Trust Memeta' }, { value: '24/7', label: 'Reputation Monitoring' }].map((stat, i) => (
+                                      <div key={i} style={{ textAlign: 'center' }}>
+                                                                <div className="stat-value" style={{ fontSize: isMobile ? '36px' : 'clamp(48px, 8vw, 72px)', fontWeight: 800, marginBottom: '6px', letterSpacing: '-1px', fontStyle: 'italic' }}>{stat.value}</div>
+                                                                <div style={{ fontSize: isMobile ? '11px' : '13px', color: 'rgba(250,250,250,0.4)', letterSpacing: '1px', textTransform: 'uppercase', fontWeight: 500 }}>{stat.label}</div>
+                                      </div>
+                                    ))}
+                                                                    </div>
+                                                </div>
+                              </section>
               
-                    <section id="contact" style={{ padding: isMobile ? '80px 20px' : '140px 48px', position: 'relative', zIndex: 1, textAlign: 'center' }}>
+                    <se<section id="contact" style={{ padding: isMobile ? '80px 20px' : '140px 48px', position: 'relative', zIndex: 1, textAlign: 'center' }}>
                             <div style={{ maxWidth: '800px', margin: '0 auto' }}>
                                       <div style={{ marginBottom: '32px' }}><MemetaLogo size={isMobile ? 60 : 80} glowColor="rgba(168,85,247,0.3)" /></div>
                                       <h2 style={{ fontSize: isMobile ? '32px' : 'clamp(40px, 7vw, 68px)', fontWeight: 800, letterSpacing: '-1.5px', marginBottom: '20px', lineHeight: 1.1 }}>
@@ -319,7 +333,7 @@ export default function MemetaLanding() {
                             </div>
                     </section>
               
-                    <footer style={{ padding: '48px', borderTop: '1px solid rgba(168,85,247,0.1)', position: 'relative', zIndex: 1 }}>
+                    <fo<footer style={{ padding: '48px', borderTop: '1px solid rgba(168,85,247,0.1)', position: 'relative', zIndex: 1 }}>
                             <div style={{ maxWidth: '1200px', margin: '0 auto', display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '24px' }}>
                                       <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
                                                   <MemetaLogo size={24} />
