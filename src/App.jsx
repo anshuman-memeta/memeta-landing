@@ -273,24 +273,6 @@ export default function MemetaLanding() {
                             </div>
                     </section>
 
-                        {/* Stats Section */}
-                                <section style={{ padding: isMobile ? '60px 20px' : '80px 40px', background: 'linear-gradient(180deg, rgba(168, 85, 247, 0.1) 0%, rgba(17, 17, 17, 0) 100%)', borderTop: '1px solid rgba(168, 85, 247, 0.2)', borderBottom: '1px solid rgba(168, 85, 247, 0.2)' }}>
-                                                    <div style={{ maxWidth: '1200px', margin: '0 auto', display: 'grid', gridTemplateColumns: isMobile ? 'repeat(2, 1fr)' : 'repeat(4, 1fr)', gap: isMobile ? '16px' : '24px' }}>
-                                                              {[
-                        { number: 127, suffix: 'M+', label: 'Monthly Audience' },
-                        { number: 50, suffix: '+', label: 'Communities we run' },
-                        { number: 35, suffix: '+', label: 'Brands trust Memeta' },
-                        { number: 24, suffix: '/7', label: 'Reputation Monitoring' }
-                                    ].map((stat, index) => (
-                                                            <div key={index} style={{ textAlign: 'center', minWidth: '200px', padding: isMobile ? '24px 16px' : '32px 24px', background: 'rgba(168, 85, 247, 0.08)', borderRadius: '16px', border: '1px solid rgba(168, 85, 247, 0.2)' }}>
-                                                                                      <div style={{ fontSize: isMobile ? '36px' : '48px', fontWeight: 700, color: '#A855F7', marginBottom: '8px' }}>
-                                                                                                                  <AnimatedCounter target={stat.number} suffix={stat.suffix} duration={2000} />
-                                                                                                </div>
-                                                                                      <p style={{ fontSize: '16px', color: 'rgba(250,250,250,0.7)', margin: 0 }}>{stat.label}</p>
-                                                            </div>
-                                                          ))}
-                                                    </div>
-                                </section>
               
                     <section id="services" style={{ padding: isMobile ? '80px 20px' : '140px 48px', position: 'relative' }}>
                             <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
@@ -326,7 +308,7 @@ export default function MemetaLanding() {
 
                         {/* Stats */}
                               <section id="results" style={{ padding: isMobile ? '60px 20px' : '100px 48px', position: 'relative', zIndex: 1 }}>
-                                                <div style={{ maxWidth: '1100px', margin: '0 auto', background: 'rgba(168,85,247,0.03)', borderRadius: '32px', border: '1px solid rgba(168,85,247,0.1)', padding: isMobile ? '40px 24px' : '60px 40px' }}>
+                                                <div style={{ maxWidth: '1100px', margin: '0 auto', background: 'rgba(168,85,247,0.03)', borderRadius: '48px', border: '1px solid rgba(168,85,247,0.1)', padding: isMobile ? '40px 24px' : '60px 40px' }}>
                                                                     <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: isMobile ? '32px 16px' : '48px 32px', maxWidth: '700px', margin: '0 auto' }}>
                                                                               {[{ value: '127M+', label: 'Monthly Community Viewers' }, { value: '50+', label: 'Communities We Run' }, { value: '35+', label: 'Brands Trust Memeta' }, { value: '24/7', label: 'Reputation Monitoring' }].map((stat, i) => (
                                       <div key={i} style={{ textAlign: 'center' }}>
