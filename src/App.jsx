@@ -146,7 +146,7 @@ export default function MemetaLanding() {
                                                                                                                                                                                                                                                                                                                                                                             html {
                                                                                                                                                                                                                                                                                                                                                                                       scroll-behavior: smooth;
                                                                                                                                                                                                                                                                                                                                                                                               }
-                                                                                                                                                                                                                                                                                                                                                                                                    `}</style>style>
+                                                                                                                                                                                                                                                                                                                                                                                                    `}</style>
             
                   {/* Background Orbs */}
                   <div style={{
@@ -366,7 +366,7 @@ export default function MemetaLanding() {
                               marginBottom: '48px'
             }}>
                                                 We plant your brand in conversations that matter.
-                                    </p>p>
+                                    </p>
                           
                                     <div style={{ display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
                                                 <a
@@ -483,7 +483,7 @@ export default function MemetaLanding() {
                                                                             fontStyle: 'italic'
                                                     }}>
                                                       {service.tagline}
-                                                </p>p>
+                                                </p>
                                 
                                                 <p style={{
                                                                             fontSize: '15px',
@@ -492,7 +492,7 @@ export default function MemetaLanding() {
                                                                             marginBottom: '24px'
                                                     }}>
                                                       {service.description}
-                                                </p>p>
+                                                </p>
                                 
                                                 <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
                                                       {service.benefits.map((benefit, i) => (
@@ -604,7 +604,7 @@ export default function MemetaLanding() {
                               lineHeight: 1.7
             }}>
                                                 Let's talk strategy.
-                                    </p>p>
+                                    </p>
                           
                                     <a
                                                       href="mailto:anshuman@memeta.in"
