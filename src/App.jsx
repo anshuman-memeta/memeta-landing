@@ -352,7 +352,7 @@ export default function MemetaLanding() {
                             </div>
                     </section>
               
-                    <fo<footer style={{ padding: '48px', borderTop: '1px solid rgba(168,85,247,0.1)', position: 'relative', zIndex: 1 }}>
+                    <footer style={{ padding: '48px', borderTop: '1px solid rgba(168,85,247,0.1)', position: 'relative', zIndex: 1 }}>
                             <div style={{ maxWidth: '1200px', margin: '0 auto', display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '24px' }}>
                                       <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
                                                   <MemetaLogo size={24} />
