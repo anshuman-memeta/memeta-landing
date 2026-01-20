@@ -310,9 +310,9 @@ export default function MemetaLanding() {
                               <section id="results" style={{ padding: isMobile ? '60px 20px' : '100px 48px', position: 'relative', zIndex: 1 }}>
                                                 <div style={{ maxWidth: '1100px', margin: '0 auto', background: 'rgba(168,85,247,0.03)', borderRadius: '48px', border: '1px solid rgba(168,85,247,0.1)', padding: isMobile ? '40px 24px' : '60px 40px' }}>
                                                                     <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: isMobile ? '32px 16px' : '48px 32px', maxWidth: '700px', margin: '0 auto' }}>
-                                                                              {[{ value: '127M+', label: 'Monthly Community Viewers' }, { value: '50+', label: 'Communities We Run' }, { value: '35+', label: 'Brands Trust Memeta' }, { value: '24/7', label: 'Reputation Monitoring' }].map((stat, i) => (
+                                                                              {[{ number: 127, suffix: 'M+', label: 'Monthly Community Viewers' }, { number: 50, suffix: '+', label: 'Communities We Run' }, { number: 35, suffix: '+', label: 'Brands Trust Memeta' }, { number: 24, suffix: '/7', label: 'Reputation Monitoring' }].map((stat, i) => (
                                       <div key={i} style={{ textAlign: 'center' }}>
-                                                                <div className="stat-value" style={{ fontSize: isMobile ? '36px' : 'clamp(48px, 8vw, 72px)', fontWeight: 800, marginBottom: '6px', letterSpacing: '-1px', fontStyle: 'italic' }}>{stat.value}</div>
+                                                                <div className="stat-value" style={{ fontSize: isMobile ? '36px' : 'clamp(48px, 8vw, 72px)', fontWeight: 800, marginBottom: '6px', letterSpacing: '-1px', fontStyle: 'italic' }}><AnimatedCounter target={stat.number} suffix={stat.suffix} /></div>
                                                                 <div style={{ fontSize: isMobile ? '11px' : '13px', color: 'rgba(250,250,250,0.4)', letterSpacing: '1px', textTransform: 'uppercase', fontWeight: 500 }}>{stat.label}</div>
                                       </div>
                                     ))}
