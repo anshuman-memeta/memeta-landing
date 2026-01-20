@@ -272,6 +272,25 @@ export default function MemetaLanding() {
                                       </div>
                             </div>
                     </section>
+
+                        {/* Stats Section */}
+                                <section style={{ padding: isMobile ? '60px 20px' : '80px 20px', position: 'relative' }}>
+                                                    <div style={{ maxWidth: '1200px', margin: '0 auto', display: 'flex', justifyContent: 'space-around', flexWrap: 'wrap', gap: '40px' }}>
+                                                              {[
+                        { number: 127, suffix: 'M+', label: 'Monthly Audience' },
+                        { number: 50, suffix: '+', label: 'Communities we run' },
+                        { number: 35, suffix: '+', label: 'Brands trust Memeta' },
+                        { number: 24, suffix: '/7', label: 'Reputation Monitoring' }
+                                    ].map((stat, index) => (
+                                                            <div key={index} style={{ textAlign: 'center', minWidth: '200px' }}>
+                                                                                      <div style={{ fontSize: isMobile ? '36px' : '48px', fontWeight: 700, color: '#A855F7', marginBottom: '8px' }}>
+                                                                                                                  <AnimatedNumber target={stat.number} suffix={stat.suffix} duration={2000} />
+                                                                                                </div>
+                                                                                      <p style={{ fontSize: '16px', color: 'rgba(250,250,250,0.7)', margin: 0 }}>{stat.label}</p>
+                                                            </div>
+                                                          ))}
+                                                    </div>
+                                </section>
               
                     <se<section id="services" style={{ padding: isMobile ? '80px 20px' : '140px 48px', position: 'relative' }}>
                             <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
