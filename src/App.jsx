@@ -292,7 +292,7 @@ export default function MemetaLanding() {
                                                     </div>
                                 </section>
               
-                    <se<section id="services" style={{ padding: isMobile ? '80px 20px' : '140px 48px', position: 'relative' }}>
+                    <section id="services" style={{ padding: isMobile ? '80px 20px' : '140px 48px', position: 'relative' }}>
                             <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
                                       <div style={{ textAlign: 'center', marginBottom: '80px' }}>
                                                   <span style={{ fontSize: '12px', fontWeight: 600, color: '#A855F7', letterSpacing: '2px', marginBottom: '16px', display: 'inline-block' }}>WHAT WE DO</span>
@@ -338,7 +338,7 @@ export default function MemetaLanding() {
                                                 </div>
                               </section>
               
-                    <se<section id="contact" style={{ padding: isMobile ? '80px 20px' : '140px 48px', position: 'relative', zIndex: 1, textAlign: 'center' }}>
+                    <section id="contact" style={{ padding: isMobile ? '80px 20px' : '140px 48px', position: 'relative', zIndex: 1, textAlign: 'center' }}>
                             <div style={{ maxWidth: '800px', margin: '0 auto' }}>
                                       <div style={{ marginBottom: '32px' }}><MemetaLogo size={isMobile ? 60 : 80} glowColor="rgba(168,85,247,0.3)" /></div>
                                       <h2 style={{ fontSize: isMobile ? '32px' : 'clamp(40px, 7vw, 68px)', fontWeight: 800, letterSpacing: '-1.5px', marginBottom: '20px', lineHeight: 1.1 }}>
