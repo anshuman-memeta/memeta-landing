@@ -275,7 +275,7 @@ export default function MemetaLanding() {
 
                         {/* Stats Section */}
                                 <section style={{ padding: isMobile ? '60px 20px' : '80px 40px', background: 'linear-gradient(180deg, rgba(168, 85, 247, 0.1) 0%, rgba(17, 17, 17, 0) 100%)', borderTop: '1px solid rgba(168, 85, 247, 0.2)', borderBottom: '1px solid rgba(168, 85, 247, 0.2)' }}>
-                                                    <div style={{ maxWidth: '1200px', margin: '0 auto', display: 'flex', justifyContent: 'space-around', flexWrap: 'wrap', gap: '40px' }}>
+                                                    <div style={{ maxWidth: '1200px', margin: '0 auto', display: 'grid', gridTemplateColumns: isMobile ? 'repeat(2, 1fr)' : 'repeat(4, 1fr)', gap: isMobile ? '16px' : '24px' }}>
                                                               {[
                         { number: 127, suffix: 'M+', label: 'Monthly Audience' },
                         { number: 50, suffix: '+', label: 'Communities we run' },
