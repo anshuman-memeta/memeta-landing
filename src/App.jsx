@@ -179,11 +179,11 @@ export default function MemetaLanding() {
                         number: '02',
                         title: 'ORM Intelligence',
                         tagline: 'Control the narrative.',
-                        description: 'Real-time monitoring and strategic response. Shape perception before it shapes you.',
+                        description: 'Reputation management meets opportunity creation. Turn threats into wins.',
                         benefits: [
-                                { label: 'Sentiment Tracking', detail: "Know what's being said, everywhere" },
-                                { label: 'Crisis Prevention', detail: 'Address issues before they escalate' },
-                                { label: 'Reputation Building', detail: 'Systematic trust construction' }
+                                { label: 'Threat Neutralization', detail: "Tackle harmful posts swiftly" },
+                                { label: 'Brand Insertion', detail: 'Create conversation opportunities' },
+                                { label: 'AI Positioning', detail: 'Shape how AI talks about you' }
                                       ],
                         accent: '#7C3AED'
           },
@@ -191,8 +191,8 @@ export default function MemetaLanding() {
                         id: 'engagement',
                         number: '03',
                         title: 'Community Engine',
-                        tagline: 'Turn audiences into advocates.',
-                        description: 'Deep engagement strategies that convert passive viewers into active champions.',
+                        tagline: 'Build tribes. Own attention.',
+                        description: 'Viral community architecture. Sustained engagement. Owned media that compounds.',
                         benefits: [
                                 { label: 'Viral Communities', detail: 'Engineer shareable moments' },
                                 { label: 'Retention Systems', detail: 'Keep audiences coming back' },
