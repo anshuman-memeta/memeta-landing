@@ -233,7 +233,7 @@ export default function MemetaLanding() {
                                                                                                                                                                                                                     .nav-link { position: relative; }
                                                                                                                                                                                                                             .nav-link::after { content: ''; position: absolute; bottom: -4px; left: 0; width: 0; height: 2px; background: linear-gradient(90deg, #A855F7, #7C3AED); transition: width 0.3s ease; }
                                                                                                                                                                                                                                     .nav-link:hover::after { width: 100%; }
-                                                                                                                                                                                                                                          `}</style>style>
+                                                                                                                                                                                                                                          `}</h1></style>
               
                     <section style={{ minHeight: '100vh', position: 'relative', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: isMobile ? '80px 20px' : '0' }}>
                             <div className="orb-pulse" style={{ position: 'absolute', top: '-20%', right: '-10%', width: '600px', height: '600px', background: 'radial-gradient(circle, rgba(168,85,247,0.15) 0%, transparent 70%)', borderRadius: '50%', transform: `translateY(${scrollY * 0.1}px)` }} />
@@ -264,7 +264,7 @@ export default function MemetaLanding() {
                                       </div>
                                       <h1 className="hero-title" style={{ fontSize: isMobile ? '48px' : 'clamp(56px, 8vw, 96px)', fontWeight: 800, letterSpacing: '-3px', lineHeight: 1, marginBottom: '24px' }}>
                                                   Occupy<br /><span className="gradient-text-shimmer">Mindshare.</span>
-                                      </h1>h1>
+                                      </h1>
                                       <p className="hero-subtitle" style={{ fontSize: isMobile ? '18px' : '22px', color: 'rgba(250,250,250,0.7)', maxWidth: '600px', margin: '0 auto 40px', lineHeight: 1.6 }}>We plant your brand in conversations that matter.</p>
                                       <div className="hero-buttons" style={{ display: 'flex', gap: '16px', justifyContent: 'center', flexWrap: 'wrap' }}>
                                                   <a href="#services" className="cta-button" style={{ padding: '16px 36px', background: 'linear-gradient(135deg, #A855F7 0%, #7C3AED 100%)', color: '#FAFAFA', textDecoration: 'none', fontSize: '16px', fontWeight: 600, borderRadius: '100px', border: '1px solid rgba(168,85,247,0.5)' }}>Explore Services</a>
