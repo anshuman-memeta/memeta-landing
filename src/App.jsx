@@ -324,7 +324,7 @@ export default function MemetaLanding() {
                             <div style={{ maxWidth: '800px', margin: '0 auto' }}>
                                       <div style={{ marginBottom: '32px' }}><MemetaLogo size={isMobile ? 60 : 80} glowColor="rgba(168,85,247,0.3)" /></div>
                                       <h2 style={{ fontSize: isMobile ? '32px' : 'clamp(40px, 7vw, 68px)', fontWeight: 800, letterSpacing: '-1.5px', marginBottom: '20px', lineHeight: 1.1 }}>
-                                                  Ready to own the<br /><span className="gradient-text-shimmer" style={{ fontStyle: 'italic', paddingRight: '8px', display: 'inline-block' }}>conversation?</span>
+                                                  Ready to own the<br /><span className="gradient-text-shimmer" style={{ fontStyle: 'italic', display: 'inline-block' }}>conversation?</span>
                                       </h2>
                                       <p style={{ fontSize: isMobile ? '17px' : '20px', color: 'rgba(250,250,250,0.55)', marginBottom: '40px', lineHeight: 1.7 }}>Let's talk strategy.</p>
                                       <a href="mailto:anshuman@memeta.in" className="cta-button" style={{ display: 'inline-flex', alignItems: 'center', gap: '12px', padding: '22px 52px', background: 'linear-gradient(135deg, #A855F7 0%, #7C3AED 50%, #6D28D9 100%)', color: '#FAFAFA', textDecoration: 'none', fontSize: '17px', fontWeight: 600, borderRadius: '100px', border: '1px solid rgba(168,85,247,0.4)' }}>
