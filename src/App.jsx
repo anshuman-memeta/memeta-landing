@@ -200,7 +200,7 @@ export default function MemetaLanding() {
                                       ],
                         accent: '#C084FC'
           }
-            ];
+            ];className="hero-badge" style={{ display: 'inline-block', padding: '8px 0px', background: 'transparent', borderRadius: '0', border: 'none'
 
   return (
               <div style={{ minHeight: '100vh', background: '#0A0A0B', color: '#FAFAFA', fontFamily: '"Outfit", sans-serif', overflow: 'hidden', position: 'relative' }}>
@@ -233,11 +233,11 @@ export default function MemetaLanding() {
                                                                                                                                                                                                                     .nav-link { position: relative; }
                                                                                                                                                                                                                             .nav-link::after { content: ''; position: absolute; bottom: -4px; left: 0; width: 0; height: 2px; background: linear-gradient(90deg, #A855F7, #7C3AED); transition: width 0.3s ease; }
                                                                                                                                                                                                                                     .nav-link:hover::after { width: 100%; }
-                                                                                                                                                                                                                                          `}</style>
+                                     background: 'transparent', borderRadius: '0', border: 'none', marginBottom: '32px'                                                                                                                                                                                                     `}</style>
               
                     <section style={{ minHeight: '100vh', position: 'relative', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: isMobile ? '80px 20px' : '0' }}>
                             <div className="orb-pulse" style={{ position: 'absolute', top: '-20%', right: '-10%', width: '600px', height: '600px', background: 'radial-gradient(circle, rgba(168,85,247,0.15) 0%, transparent 70%)', borderRadius: '50%', transform: `translateY(${scrollY * 0.1}px)` }} />
-                            <div className="orb-pulse" style={{ position: 'absolute', top: '40%', left: '-15%', width: '500px', height: '500px', background: 'radial-gradient(circle, rgba(232,121,249,0.1) 0%, transparent 70%)', borderRadius: '50%', transform: `translateY(${scrollY * 0.15}px)`, animationDelay: '1s' }} />
+                            <div claspadding: '0', background: 'transparent', borderRadius: '0', border: 'none'sName="orb-pulse" style={{ position: 'absolute', top: '40%', left: '-15%', width: '500px', height: '500px', background: 'radial-gradient(circle, rgba(232,121,249,0.1) 0%, transparent 70%)', borderRadius: '50%', transform: `translateY(${scrollY * 0.15}px)`, animationDelay: '1s' }} />
                             <div className="orb-pulse" style={{ position: 'absolute', bottom: '-10%', right: '20%', width: '400px', height: '400px', background: 'radial-gradient(circle, rgba(124,58,237,0.12) 0%, transparent 70%)', borderRadius: '50%', transform: `translateY(${scrollY * -0.1}px)`, animationDelay: '2s' }} />
                             <div style={{ position: 'absolute', inset: 0, backgroundImage: 'linear-gradient(rgba(168,85,247,0.03) 1px, transparent 1px), linear-gradient(90deg, rgba(168,85,247,0.03) 1px, transparent 1px)', backgroundSize: '50px 50px' }} />
                     
@@ -248,7 +248,7 @@ export default function MemetaLanding() {
                                                                 <span style={{ fontSize: '20px', fontWeight: 700, letterSpacing: '-0.5px' }}>Memeta</span>
                                                   </div>
                                               {!isMobile && (
-                                    <div style={{ display: 'flex', gap: '40px', alignItems: 'center' }}>
+                                    <style={{ marginBottom: '32px' }}div style={{ display: 'flex', gap: '40px', alignItems: 'center' }}>
                                             {['Services'].map(item => (
                                                               <a key={item} href={`#${item.toLowerCase()}`} className="nav-link" style={{ color: 'rgba(250,250,250,0.7)', textDecoration: 'none', fontSize: '14px', fontWeight: 500 }}>{item}</a>
                                                             ))}
